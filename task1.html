@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Web_RSM_Task1</title>
+        <meta charset="utf-8">
+        <title>My Registration Form</title>
     </head>
-    <body>
-        <p>What needs to get done?</p>
-        <form>
-            <input type="radio" id="eat" name="1">
-            <label for="eat">eat</label><br>
-            <input type="radio" id="sleep" name="1"/>
-            <label for="sleep">sleep</label><br>
-            <input type="radio" id="drink water" name="1"/>
-            <label for="drink water">drink water</label><br>
-            <input type="radio" id="go on a run" name="1"/>
-            <label for="go on a run">go on a run</label>
-        </form>
-        <h6>4 items</h6>
+    <body bgcolor="#24a0ed">
+        <div style="position:relative; left: 450px; top:100px; width:1000px; height:700px; border-radius:5px; background-color:#fff;">
+            <form>
+                <!-- Heading-->
+                <p style="text-align: center; position:relative; top: 50px ; font-size:30px; font-weight:600; color: #24a0ed; text-shadow: 1px 1px #f5f5f5;">REGISTRATION FORM</p>
+                
+                <!-- First Name-->
+                <input  id="Fname" type="text" style="position: relative; left:500px; top: 70px; width: 300px; height:40px;background-color: #f5f5f5; border:0px ; " placeholder="    First Name" >
+                <label for="Fname" style="position: relative; top:73px; right:100px; font-size: 20px;">Enter your First Name</label><br>
+                
+                <!-- Last Name-->
+                <input  id="Fname" type="text" style="position: relative; left:500px; top: 90px; width: 300px; height:40px;background-color: #f5f5f5; border:0px ; " placeholder="    Last Name" >
+                <label for="Fname" style="position: relative; top:93px; right:100px; font-size: 20px;">Enter your Last Name</label><br>
+                
+                <!-- Gender-->
+                <label style="position: relative; top:120px; left: 210px; font-size: 20px; width: 20px;">Gender</label>
+                    
+                    <!-- Male-->
+                    <input id="male" name="1" type="radio" style="position: relative; left:418px; top: 120px;">
+                    <label for="male" style="position: relative; top:120px; left: 418px; font-size: 20px;">Male</label>
+                    
+                    <!-- Female-->
+                    <input id="Female" name="1" type="radio" style="position: relative; left:437px; top: 120px;">
+                    <label for="female" style="position: relative; top:120px; left: 437px; font-size: 20px;">Female</label>
+                    
+                    <!-- Others-->
+                    <input id="others" name="1" type="radio" style="position: relative; left:455px; top: 120px;">
+                    <label for="others" style="position: relative; top:120px; left: 455px; font-size: 20px;">Others</label>
+                    <br>
+                    
+                <!-- Branch-->
+                <label style="position: relative; top:153px; left: 210px; font-size: 20px; width: 20px;">Branch</label>
+                <select name="branch" id="branch" style="position: relative; left:425px; top: 150px; background-color: #f5f5f5; border: 0px; padding: 5px;">
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="MECH">MECH</option>
+                </select>
+                 
+                <!-- Date of Birth-->
+                <input type="date" id="date" style="position: relative; left:350px; top: 210px; background-color: #f5f5f5; border: 0px; padding: 5px;"/>
+                <label for="date" style="position: relative; top:210px; right: 110px; font-size: 20px; width: 20px;">Date of Birth</label><br>
+
+                <!-- Feedback-->
+                <label style="position: relative; top:200px; left: 211px; font-size: 20px; width: 20px;">Feedback</label>
+                <textarea rows="3" cols="40" placeholder="Please enter your feedback here" style=" position: relative; left:400px; top: 245px; background-color: #f5f5f5; border: 0px; padding: 5px;"></textarea>
+                
+                <!-- Submit-->
+                <button type="button" style="position: relative; left:50px; top: 320px; background-color: #24a0ed; color:#fff; border: 0px; padding: 10px; width: 80px; font-size: large;">Submit</button>             
+            </form>
+
+            <p style="position: relative; left:430px; top: 340px; color: #949494;">@yashaswi_chinni</p>
+        </div>
+        
     </body>
 </html>
