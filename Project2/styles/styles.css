@@ -1,6 +1,144 @@
+/*Navigation bar*/
+#div-nav
+{
+    position:relative; 
+    width: auto; 
+    height: 100px; 
+    background-color:#fff;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 60;
+    overflow: hidden;
+    background-color: #2e2e2e;
+}
+  
+li 
+{
+    float: left;
+}
+  
+li a 
+{
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 34px 30px;
+    text-decoration: none;
+}
+  
+li a:hover 
+{
+    background-color: rgb(0, 119, 255);
+}
+
+
+
+/*Landing page*/
+.div-landing
+{
+    position:relative; 
+    width: auto; 
+    height: 700px; 
+    background-color: rgb(0, 110, 255);
+}
+
+
+/*IEEE - VBIT SB Heading*/
 .content
 {
+    position: relative;
+    top: 240px;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 130px;
+    color: #fff;
+    
+}
+
+
+/*Tagline*/
+.info
+{
+    position: relative;
+    top: 300px;
+    right: 420px;
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    width: 2px;
+   
+}
+.info2
+{
+    position: relative;
+    top: 330px;
+    right: 1359px;
+    font-size: 18px;
+    text-align: left;
+    color: #fff;
+    width: 2px;
+   
+}
+
+
+/*Logo*/
+.div-logo
+{
+    position: relative;
+    top: 70px;
+    left: 1300px; 
+}
+
+
+/*Know more button*/
+.knowmore
+{
+    border: 0px; 
+    padding: 10px; 
+    background-color: #fff; 
+    color: blue; 
+    position: relative; 
+    right: 270px; 
+    bottom: 20px;
+}
+
+
+
+/*Society chapters*/
+.content2
+{
+    position: relative;
+    font-weight: 500;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 10;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(37, 37, 37);
+}
+
+
+
+/*Flex containers*/
+.flex-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+}
+.flex-container > div 
+{
+    flex-wrap:wrap;
+    background-color: #006eff;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 30px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 1px 5px 7px 3px #d4d4d4;
 }
