@@ -142,3 +142,48 @@ li a:hover
     color: #fff;
     box-shadow: 1px 5px 7px 3px #d4d4d4;
 }
+
+
+
+/*TEAM*/
+.flex-container2 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.flex-container2 > div 
+{
+    flex-wrap:wrap;
+    background-color: #006eff;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    padding:0px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 1px 5px 7px 3px #d4d4d4;
+}
+.flex-container2 > div > p 
+{
+    text-align: center;
+}
+
+
+/*Footer*/
+.footer
+{
+    width: auto; 
+    height: 70px; 
+    background-color: rgb(44, 44, 44);
+}
+.info3
+{
+    position: relative;
+   padding: 25px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    
+}
