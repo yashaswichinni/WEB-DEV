@@ -1,43 +1,16 @@
 /*Navigation bar*/
-#div-nav
+.div-nav
 {
-    position:relative; 
-    width: auto; 
-    height: 100px; 
-    background-color:#fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    color: white;
 }
-
-
-
-ul 
-{
-    list-style-type: none;
-    margin: 0;
-    padding-top: 60;
-    overflow: hidden;
-    background-color: #2e2e2e;
-}
-  
-li 
-{
-    float: left;
-}
-  
-li a 
-{
-    display: block;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 34px 30px;
-    text-decoration: none;
-}
-  
-li a:hover 
-{
-    background-color: rgb(0, 119, 255);
-}
-
+.nav-links {
+    display: flex;
+    color: white;
+  }
 
 
 /*Landing page*/
@@ -97,6 +70,7 @@ li a:hover
 }
 
 
+
 /*Know more button*/
 .knowmore
 {
@@ -145,12 +119,39 @@ li a:hover
     box-shadow: 1px 5px 7px 3px #d4d4d4;
 }
 
-@media screen and (max-width: 700px) 
+@media screen and (max-width: 450px) 
     {
         .flex-container, .flex-container > div, .flex-container2, .flex-container2 > div, .flex-container2 > div > p
         {   
           flex-direction: column;
         }
+        .content
+        {
+            position: relative;
+            right: 55px;
+            top: 80px;
+            font-size: 35px;
+            text-align: center;
+            font-weight: 800px;
+        }
+        .info, .info2
+        {
+            position: relative;
+            left: 25px;
+            top: 100px;
+            font-size: 10px;
+            text-align: center;
+        }
+        .div-landing
+        {
+            width: auto; 
+            height: 250px;
+        }
+        .div-nav
+        {
+            flex-direction: column;
+        }
+        
     }
 
 
